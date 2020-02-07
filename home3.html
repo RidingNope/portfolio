@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>home</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet"> 
+
+<!-- Core CSS file -->
+<link rel="stylesheet" href="photoswipe/photoswipe.css">
+
+<!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite,
+     - preloader.gif (for browsers that do not support CSS animations) -->
+<link rel="stylesheet" href="photoswipe/default-skin/default-skin.css">
+
+
+</head>
+
+<body id="home">
+<header>
+	<img src="images/webwip2.png" alt="Header image" width="320px" class="headerimg">
+	<h1>Iris Red</h1>
+	<h2>Comics, Illustration & Graphic design</h2>
+</header>
+
+<nav>
+<ul>
+	<li><a href="#home">Home</a></li>
+	<li><a href="#gallery">Gallery</a></li>
+	<li><a href="#resume">Resume</a></li>
+	<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<div id="gallery" class="reel"><h2>Gallery</h2>
+	<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+	
+	<!-- Note to self: to make thumbnail, make the picture 150px wide/tall and save as -bg.png, check object position. Do NOT crop the picture.-->
+		<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+			<a href="images/Matka1.jpg" itemprop="contentUrl" data-size="639x900">
+				<img src="images/Matka1-bg.png" itemprop="thumbnail" alt="Comic Page 1" style="object-position: right bottom;" />
+			</a>
+			<figcaption itemprop="caption description">A comic page</figcaption>
+		</figure>
+		
+		<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+			<a href="images/Matka2.jpg" itemprop="contentUrl" data-size="639x900">
+				<img src="images/Matka2-bg.png" itemprop="thumbnail" alt="A Comic Page" style="object-position: right center;" />
+			</a>
+			<figcaption itemprop="caption description">A comic page</figcaption>
+		</figure>
+		
+		<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+			<a href="images/Matka3.jpg" itemprop="contentUrl" data-size="639x900">
+				<img src="images/Matka3-bg.png" itemprop="thumbnail" alt="A Comic Page" style="object-position: right center;" />
+			</a>
+			<figcaption itemprop="caption description">A comic page</figcaption>
+		</figure>
+		
+		<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+			<a href="images/Matka4.jpg" itemprop="contentUrl" data-size="639x900">
+				<img src="images/Matka4-bg.png" itemprop="thumbnail" alt="A Comic Page" style="object-position: right top;" />
+			</a>
+			<figcaption itemprop="caption description">A comic page</figcaption>
+		</figure>
+
+		<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+			<a href="images/boomie.png" itemprop="contentUrl" data-size="800x1132">
+				<img src="images/boomie-bg.png" itemprop="thumbnail" alt="Pyro" style="object-size: 75%;" />
+			</a>
+			<figcaption itemprop="caption description">TF2 fanart</figcaption>
+		</figure>
+	
+		<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+			<a href="images/huone.png" itemprop="contentUrl" data-size="800x443">
+				<img src="images/huone-bg.png" itemprop="thumbnail" alt="Painting of a room" style="object-position: left center;" />
+			</a>
+			<figcaption itemprop="caption description">Digital Painting</figcaption>
+		</figure>
+		
+	</div>
+</div>
+
+<div id="resume" class="resume paragraph"><h2>Resume</h2>
+<br><i>A jack of all trades is a master of none, but oftentimes better than a master of one.</i>
+<br>
+<br>> Personal info
+<br>Name: Iris Hyvönen
+<br>Age: 29
+<br>Location: Helsinki, Finland
+<br>Email:
+<br>
+<br>> Education
+<br>Bachelor of
+<br>Metropolia University of Applied Sciences
+<br>2012-2019
+<br>
+<br>Comic Studies
+<br>Orivesi College of Arts
+<br>2011-2012
+<br>
+<br>A levels
+<br>Jyväskylän Lyseo Upper Secondary School
+<br>2007-2010
+<br>	> 3 years of Entrepreneurship studies
+<br>	> Took part in large scale theatre productions of the school's 150 year celebrations (acting, singing)
+<br>
+<br>> Work experience
+<br>Freelance
+<br>Occasionally since 2013
+<br>
+<br>Internship and summer job
+<br>Valovirta
+<br>
+<br>> Program skills
+<br>Photoshop
+<br>Illustrator
+<br>Indesign
+<br>Vegas Pro
+<br>Blender
+<br>
+<br>> Other skills
+<br>//Googling//
+<br>Versatile
+<br>
+<br>
+<br>> Language skills
+<br>Finnish - Native
+<br>English - Fluent
+<br>Swedish - Beginner
+<br>French 	- Beginner
+<br>Dutch 	- Beginner
+</div>
+
+<div id="contact" class="contact paragraph"><h2>Contact</h2><br>You can follow me on 
+<a href="https://www.pillowfort.io/IrisRed" vlink="#c1614d">Pillowfort</a> for more art and skethes, and on
+<a href="https://www.twitch.tv/redridingnope">Twitch</a> for both video game and artsy live streams.<br><br>
+For business inquiries please contact me via xxx<br><br>
+Site last updated on 7th February 2020.
+</div>
+
+<footer>
+</footer>
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides.
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Core JS file -->
+<script src="photoswipe/photoswipe.min.js"></script>
+
+<!-- UI JS file -->
+<script src="photoswipe/photoswipe-ui-default.min.js"></script>
+<script src="photoswipe/photoswipe-dom-loader.js"></script>
+</body>
+</html>
