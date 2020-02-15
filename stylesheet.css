@@ -20,6 +20,15 @@ header {
 	min-height: 800px;
 }
 
+@media screen (max-width: 500px) {
+ header h1 {
+  margin: 8px 0;
+ }
+ nav li a {
+  padding: 14px 9px;
+ }
+}
+
 .headerimg {
 	display: block;
 	max-width: 100%;
