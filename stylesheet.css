@@ -20,6 +20,13 @@ header {
 	min-height: 800px;
 }
 
+.headerimg {
+	display: block;
+	max-width: 100%;
+	max-height: 60vh;
+	margin: auto;
+}
+
 header h1{
 	color: #c1614d;
 	text-align: center;
@@ -85,11 +92,6 @@ nav li a:active {
 	color: #282828;
 }
 
-.headerimg {
-	display: block;
-	margin: 0 auto 5vh auto;
-}
-
 .reel {
 	height: 100vh;
 }
@@ -130,6 +132,10 @@ nav li a:active {
 	font-size: 32px;
 	padding-top: 154px;
 	margin-bottom: 20px;
+}
+
+.contact a:link {
+	color: #c1614d;
 }
 
 .contact a:visited {
