@@ -194,11 +194,18 @@ nav li a:active {
 
 /* Resposiveness */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
+ body {
+	padding-top: 2px;
+ }
  header h1 {
-  margin: 8px 0;
+	margin: 2px 0 8px 0;
+ }
+ header h2 {
+	font-size: 24px;
  }
  nav li a {
-  padding: 14px 9px;
+	width: 55px;
+	padding: 14px 8px;
  }
 }
