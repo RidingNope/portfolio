@@ -192,7 +192,9 @@ nav li a:active {
 	display:none;
 }
 
-@media screen (max-width: 800px) {
+/* Resposiveness */
+
+@media screen and (max-width: 800px) {
  header h1 {
   margin: 8px 0;
  }
