@@ -103,44 +103,23 @@ nav li a:active {
 }
 
 .reel {
-	height: 100vh;
-}
 
-.reel h2 {
-	color: #e5e5e5;
-	text-align: center;
-	font-family: 'Amatic SC', cursive;
-	font-weight: normal;
-	font-size: 32px;
-	padding-top: 154px;
-	margin-bottom: 20px;
 }
 
 .resume {
-	height: 1300px;
-}
 
-.resume h2 {
-	color: #e5e5e5;
-	text-align: center;
-	font-family: 'Amatic SC', cursive;
-	font-weight: normal;
-	font-size: 32px;
-	padding-top: 154px;
-	margin-bottom: 20px;
 }
 
 .contact {
 	height: 100vh;
 }
 
-.contact h2 {
+.paragraph h2 {
 	color: #e5e5e5;
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
 	font-weight: normal;
 	font-size: 32px;
-	padding-top: 154px;
 	margin-bottom: 20px;
 }
 
@@ -165,8 +144,9 @@ footer {
 	max-width: 740px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
-	padding: 50px 6px 8px 6px;
+	padding: 200px 6px 8px 6px;
 	margin: 0 auto;
+	min-height: 100vh;
 }
 
 .paragraph ul {
