@@ -102,18 +102,6 @@ nav li a:active {
 	color: #282828;
 }
 
-.reel {
-
-}
-
-.resume {
-
-}
-
-.contact {
-	height: 100vh;
-}
-
 .paragraph h2 {
 	color: #e5e5e5;
 	text-align: center;
@@ -133,11 +121,11 @@ nav li a:active {
 
 footer {
 	max-width: 740px;
-	font-family: 'Open Sans', sans-serif;
 	min-width: 320px;
 	font-size: 12px;
 	text-align: center;
 	margin: 0 auto;
+	line-height: 20px;
 }
 
 .paragraph {
@@ -147,6 +135,10 @@ footer {
 	padding: 200px 6px 8px 6px;
 	margin: 0 auto;
 	min-height: 100vh;
+}
+
+.paragraph .contact {
+	min-height: calc(100vh - 20px);
 }
 
 .paragraph ul {
