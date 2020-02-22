@@ -142,12 +142,32 @@ nav li a:active {
 	color: #c1614d;
 }
 
+footer {
+	max-width: 740px;
+	font-family: 'Open Sans', sans-serif;
+	min-width: 320px;
+	font-size: 12px;
+	text-align: center;
+	margin: 0 auto;
+}
+
 .paragraph {
 	max-width: 740px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	padding: 50px 6px 8px 6px;
 	margin: 0 auto;
+}
+
+.paragraph ul {
+	list-style-type: none;
+	padding: 0 20px;
+}
+
+.paragraph h3 {
+	color: #c1614d;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
 }
 
 /* Gallery stuff */
