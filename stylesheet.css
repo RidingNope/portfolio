@@ -111,6 +111,16 @@ nav li a:active {
 	margin-bottom: 20px;
 }
 
+.resume img{
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.tab {
+	margin-left: 35px;
+}
+
 .contact a:link {
 	color: #c1614d;
 }
