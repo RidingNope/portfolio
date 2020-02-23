@@ -161,6 +161,7 @@ footer {
 	display: flex;
 	justify-content: left;
 	flex-wrap: wrap;
+	font-size: 0;
 }
 
 .my-gallery:after {
