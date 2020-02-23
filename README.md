@@ -1,4 +1,4 @@
-# portfolio-test
-testing
+# Portfolio
+Oh hi
 
-So yeah this is literally me testing my portfolio on different devices
+This is my portfolio for now
